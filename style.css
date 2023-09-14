@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+main {
+    margin-top: 100px;
+}
+
+@font-face {
+    font-family: logo1;
+    src: url(fonts/adrip1.ttf);
+}
+
+@font-face {
+    font-family: logo2;
+    src: url(fonts/TurntUp-Bold.ttf);
+}
+
+@font-face {
+    font-family: logo3;
+    src: url(fonts/STYLEWARS\ 2011.ttf);
+}
+
+/*----------------------------------------------------------------------------------- Navbar --------------------------------------------------------------------------*/
+.btn-outline-success{
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+.form-control{
+    border-color: black;
+}
+.container-fluid{
+    margin-top: -10px;
+    background-color: #3b1463;
+    height: 90px;
+}
+.navbar-brand{
+    color: white;
+    border-color: black;
+    font-size:50px ;
+    font-family: logo2;
+}
+.logo{
+    padding: 15px;
+}
+#favorito:hover{
+    color: rgb(0, 0, 0);
+}
+#carrinho:hover{
+    color: rgb(0, 0, 0);
+}
+.vector-container {
+    display: flex;
+}
+.form-control{
+    margin-right: 5px;
+}
+.bi-cart-fill{
+    color: white;
+    font-size:31px;
+    margin-right: 10px;
+}
+.bi-heart-fill{
+    color: white;
+    font-size:30px;
+    margin-right: 10px;
+}
+.bi-person-circle{
+    color: white;
+    font-size:30px;
+    /* padding: 5px ; */
+}
+.btn-outline-success{
+    margin-right: 10px ;
+}
+/*----------------------------------------------------------------------------------- Subbar --------------------------------------------------------------------------*/
+.sub-bar{
+    background-color:rgb(48, 11, 70);
+    width: 50000px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.sub-bar a:hover{
+    color:rgb(141, 141, 141) ;
+}
+/*------------------------------------------------------------------------------------- Produtos---------------------------------------------------------------------- */
+.card{
+    border: 5px solid rgb(48, 11, 70);
+}
+#bnt{
+    background-color: #5a1a99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+}
+#bnt:hover{
+    background-color: #3b1463;
+}
+/* ----------------------------------------------------------------------------------------- Rodape ------------------------------------------------------------------ */
+
+#rodape1{
+    background-color:#3b1463;
+
+    padding: 20px;
+}
+.rodape2{
+    background-color: rgb(48, 11, 70);
+    text-align: center;
+    color: white;
+}
+
+.bi-whatsapp{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+.bi-instagram{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-bottom: 20px;
+
+}
+.bi-facebook{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.bi{
+  font-size: 30px;
+}
+.rodape2 p{
+    height: 30px;
+}
+.rodape p{
+    color: white;
+    font-size: 20px;
+}
+.formas-pagamento{
+    width: 130px;
+}
+.link-footer{
+    text-decoration: none;
+    color: rgb(154, 154, 154)
+}
+.link-footer:hover{
+    color: white;
+}
+.bi-envelope{
+    color: white;
+}
+/*------------------------------------------------------------------------------ Categorias--------------------------------------------------------------------------- */
+
+.container-fluid-2{
+    background-color:rgb(48, 11, 70) ;
+    height: 340px;
+}
+.container-fluid-2 p{
+    font-size: 30px;
+    color: white;
+    font-family: 'Caprasimo', cursive;
+}
+.container-fluid-2 .row img{
+    border-radius: 500px;
+}
+.Oferta{
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+}
+
+/*--------------------------------------------------------------------------- Carrosel-------------------------------------------------------------------------------- */
+
+#carouselExample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+/*-----------------------------------------------------------------------Banner destaque------------------------------------------------------------------------------ */
+
+#bottom-banner {
+    background-color: #3b1463; 
+    padding: 6em;
+    margin-bottom: 4em;
+    text-align: center;
+  }
+  
+  #bottom-banner .offer-subtitle,
+  #bottom-banner h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  .secondary-color{
+    color: rgb(185, 183, 183);
+  }
+  #bottom-banner .btn {
+    margin: 2em;
+    font-weight: bold;
+    padding: 1em;
+  }
+  
+  #bottom-banner img {
+    max-width: 350px;
+  }
+  
+  @media(min-width: 768px) {
+    #bottom-banner h2 {
+      font-size: 6em;
+    }
+  }
+.banner-image:hover{
+    width: 500px;
+}
+/*------------------------------------------------------------------------------------ Galeria ------------------------------------------------------------------------*/
+#gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #101010;
+  }
+  
+  #gallery .image-container:hover {
+    border-color: #5a1a99;
+  }
+  #gallery{
+    margin-bottom: 135px;
+  }
+  #insta1 {
+    background-image: url('img/Galeria/galeria1.png');
+  }
+  
+  #insta2 {
+    background-image: url('img/Galeria/galeria2.png');
+  }
+  
+  #insta3 {
+    background-image: url('img/Galeria/galeria3.png');
+  }
+  
+  #insta4 {
+    background-image: url('img/Galeria/galeria4.png');
+  }
+  
+  #insta5 {
+    background-image: url('img/Galeria/galeria5.png');
+  }
+  
+  #insta6 {
+    background-image: url('img/Galeria/galeria6.png');
+  }
+  
